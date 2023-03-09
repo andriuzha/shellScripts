@@ -7,7 +7,6 @@ copiarArchivos()
 find "$carpetaOrigen"  -type f -name "*.$tipoArchivo" -exec cp "{}" "$carpetaDestino" \;
 }
 
-
 echo "Este script busca archivos por tipo de una carpeta y las copia a otra."
 echo "@andriuzha"
 printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
