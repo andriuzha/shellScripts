@@ -1,4 +1,5 @@
 # shellScript
-Pequeñas aplicaciones en basadas en shell. 
-Estas aplicaciones estan diseñadas para guardarse y ser ejecutadas como un programa a través de un doble click. 
-Estan pensadas para ser usadas por personas con poca familiaridad con la terminal y ser lo más amigables posibles.
+Pequeñas utilidades en basadas en shell. 
+No olvides asignarles permisos de ejecución a los scripts.
+Puedes leer la documentación oficial en:
+https://support.apple.com/es-mx/guide/terminal/apdd100908f-06b3-4e63-8a87-32e71241bab4/mac
