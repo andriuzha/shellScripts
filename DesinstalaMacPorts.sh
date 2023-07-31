@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Esta Script Desinstala las aplicaciones y remueve la herrameinta MacPorts
+
 clear
 
 echo "Desinstalando las aplicaciones"
