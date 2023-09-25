@@ -9,7 +9,7 @@ yt-dlp -f '22' -o '%(upload_date)s - %(title)s.%(ext)s' $URLVIDEO
 
 descargarPlaylist()
 {
-yt-dlp -f '22' -o '%(upload_date)s - %(title)s.%(ext)s' $URLPLAYLIST
+yt-dlp -f '22' -o '%(playlist)s/%(playlist_index)s - %(upload_date)s - %(title)s.%(ext)s' $URLPLAYLIST
 }
 
 descargarCanal()
