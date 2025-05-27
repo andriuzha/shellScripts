@@ -1,20 +1,24 @@
 #!/bin/bash
+# Version 1.1
+# Actualización 2025-05-27
+# Se corrigio el formato de salida
+
 
 clear
 
 descargarVideo()
 {
-yt-dlp -f '22' -o '%(upload_date)s - %(title)s.%(ext)s' $URLVIDEO
+yt-dlp -f '251+232' -o '%(upload_date)s - %(title)s.%(ext)s' $URLVIDEO
 }
 
 descargarPlaylist()
 {
-yt-dlp -f '22' -o '%(playlist)s/%(playlist_index)s - %(upload_date)s - %(title)s.%(ext)s' $URLPLAYLIST
+yt-dlp -f '251+232' -o '%(playlist)s/%(playlist_index)s - %(upload_date)s - %(title)s.%(ext)s' $URLPLAYLIST
 }
 
 descargarCanal()
 {
-yt-dlp -f '22' -o '~/%(channel)s/%(upload_date)s - %(title)s.%(ext)s' $URLCANAL
+yt-dlp -f '251+232' -o '~/%(channel)s/%(upload_date)s - %(title)s.%(ext)s' $URLCANAL
 }
 
 echo "Este script descarga videos desde YouTube."
